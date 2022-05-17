@@ -34,7 +34,8 @@
   margin: 0 auto 0;
 }
 
-.tasks__label, .tasks__text {
+.tasks__label,
+.tasks__text {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -49,15 +50,22 @@
   padding: 0px;
 }
 
-.tasks__task, .subheading {
+.tasks__task,
+.subheading {
   list-style: none;
 }
 
-input, .tasks__button_add, .tasks__button_edit, .tasks__button_delete {
+.tasks__checkbox,
+.tasks__text,
+.tasks__button_add,
+.tasks__button_edit,
+.tasks__button_delete {
   outline: none;
 }
 
-.tasks__button_add, .tasks__button_edit, .tasks__button_delete {
+.tasks__button_add,
+.tasks__button_edit,
+.tasks__button_delete {
   background: none;
   border: 0px;
   color: #888;
@@ -67,7 +75,9 @@ input, .tasks__button_add, .tasks__button_edit, .tasks__button_delete {
   cursor: pointer;
 }
 
-.tasks__button_add:hover, .tasks__button_edit:hover, .tasks__button_delete:hover {
+.tasks__button_add:hover,
+.tasks__button_edit:hover,
+.tasks__button_delete:hover {
   color: #3a3a3a;
 }
 
@@ -116,7 +126,7 @@ input, .tasks__button_add, .tasks__button_edit, .tasks__button_delete {
   align-items: center;
 }
 
-.tasks__task > * {
+.tasks__task>* {
   vertical-align: middle;
 }
 
