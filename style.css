@@ -25,7 +25,7 @@
   .header {
     text-align: center;
   }
-  
+
 }
 
 .container {
@@ -58,9 +58,9 @@ input, .tasks__button_add, .tasks__button_edit, .tasks__button_delete {
 }
 
 .tasks__button_add, .tasks__button_edit, .tasks__button_delete {
-  background:none;
-  border:0px;
-  color:#888;
+  background: none;
+  border: 0px;
+  color: #888;
   font-size: 15px;
   width: 60px;
   font-family: Lato, sans-serif;
@@ -116,7 +116,7 @@ input, .tasks__button_add, .tasks__button_edit, .tasks__button_delete {
   align-items: center;
 }
 
-.tasks__task>* {
+.tasks__task > * {
   vertical-align: middle;
 }
 
