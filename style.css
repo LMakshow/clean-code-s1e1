@@ -37,7 +37,7 @@
 .tasks__label, .tasks__text {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .tasks__line {
@@ -149,12 +149,12 @@ input, .tasks__button_add, .tasks__button_edit, .tasks__button_delete {
 
 /* Edit Task */
 .tasks__task .tasks__text {
-  display: none
+  display: none;
 }
 
 .edit .tasks__text {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .edit .tasks__label {
