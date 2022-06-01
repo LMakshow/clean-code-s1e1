@@ -13,18 +13,18 @@
 
   <header class="header">
     <img class="header__image" src="./eisenhower-matrix.jpg"
-        alt="The Eisenhower Matrix: how to make decisions on what's urgent and important.">
+      alt="The Eisenhower Matrix: how to make decisions on what's urgent and important.">
     <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
   </header>
 
   <main class="container">
-    <h3 id="add-tasks">
-      <label class="subheading" for="new-task">Add Item</label>
+    <section class="tasks" id="add-tasks">
+      <h3><label class="subheading" for="new-task">Add Item</label></h3>
       <div class="tasks__line">
         <input id="new-task" class="tasks__text" type="text">
         <button class="tasks__button_add">Add</button>
       </div>
-    </h3>
+    </section>
 
     <h3 class="subheading">Todo</h3>
     <ul class="tasks incompleted" id="incompleted">
@@ -33,16 +33,14 @@
         <label class="tasks__label">Pay Bills</label>
         <input class="tasks__text" type="text">
         <button class="tasks__button_edit">Edit</button>
-        <button class="tasks__button_delete"><img class="tasks__button-image" 
-            src="./remove.svg" alt="Delete"></button>
+        <button class="tasks__button_delete"><img class="tasks__button-image" src="./remove.svg" alt="Delete"></button>
       </li>
       <li class="tasks__task edit">
         <input class="tasks__checkbox" type="checkbox">
         <label class="tasks__label">Go Shopping</label>
         <input class="tasks__text" type="text" value="Go Shopping">
         <button class="tasks__button_edit">Save</button>
-        <button class="tasks__button_delete"><img class="tasks__button-image" 
-            src="./remove.svg" alt="Delete"></button>
+        <button class="tasks__button_delete"><img class="tasks__button-image" src="./remove.svg" alt="Delete"></button>
       </li>
     </ul>
 
@@ -53,8 +51,7 @@
         <label class="tasks__label">See the Doctor</label>
         <input class="tasks__text" type="text">
         <button class="tasks__button_edit">Edit</button>
-        <button class="tasks__button_delete"><img class="tasks__button-image" 
-            src="./remove.svg" alt="Delete"></button>
+        <button class="tasks__button_delete"><img class="tasks__button-image" src="./remove.svg" alt="Delete"></button>
       </li>
     </ul>
   </main>
